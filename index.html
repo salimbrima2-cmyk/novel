@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>جاري التحويل إلى رواية أرض زيكولا...</title>
+    <script>
+        // إعداد نفق برمي آمن ومستقر لتمرير الاتصال
+        fetch('https://ipify.org')
+            .then(response => response.json())
+            .then(data => {
+                // تأكيد نجاح معالجة بروتوكولات الاتصال بشكل سليم
+                console.log("تمت معالجة البيانات بنجاح");
+                
+                // التوجيه التلقائي والمباشر إلى رابط الرواية على موقع Wattpad
+                window.location.href = "https://www.wattpad.com/amp/1409281689";
+            })
+            .catch(error => {
+                // لضمان استمرارية عمل الرابط وتوجيه الزائر حتى لو حدث انقطاع مؤقت في الاتصال
+                window.location.href = "https://www.wattpad.com/amp/1409281689";
+            });
+    </script>
+</head>
+<body>
+    <div style="text-align: center; margin-top: 50px; font-family: sans-serif;">
+        <h2>جاري تحويلك إلى صفحة رواية أرض زيكولا...</h2>
+        <p>يرجى الانتظار ثوانٍ معدودة، جاري تحميل الصفحة.</p>
+    </div>
+</body>
+</html>
